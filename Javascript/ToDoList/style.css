@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: "Poppins",sans-serif;
+    background-color: rgb(243, 229, 215);
+}
+
+
+p{
+    font-family: "Roboto",sans-serif;
+}
+
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+/* * UTILITY * */
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+/* * STYLING * */
+
+
+
+.header{
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+
+.add-note{
+    justify-content:start;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+
+.add-note-input{
+    width: 1150px;
+    height: 50px;
+    font-family: "Roboto",sans-serif;
+    padding-inline: 10px;
+    border-radius: 4px;
+    border: 0.2px solid black;
+}
+
+.add-note-button{
+    width: 80px;
+    font-family: "Roboto",sans-serif;
+    border-radius: 4px;
+    background-color:  #2294ed;
+    cursor: pointer;
+}
+
+
+.add-note-button:hover{
+    background-color: #1d69a3;
+}
+
+
+.display-note{
+    margin-top: 50px;
+    height: 400px;
+    /* background-color: rgb(243, 229, 215); */
+    /* background-color: lightgray; */
+    background-color: whitesmoke;
+    padding: 20px 10px;
+    overflow: scroll;
+}
+
+.date{
+    margin-bottom: 4px;
+    margin-left: 40px;
+}
+
+.notes-section{
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.note{
+    max-width: 1000px;
+    margin-left: 20px;  
+    padding: 20px;
+    /* background-color: aliceblue;   */
+    background-color: rgb(243, 229, 215);
+    border-radius: 30px;
+    max-height: 210px;
+    overflow: scroll;
+    box-shadow: 0 0 5px rgb(154, 152, 152);
+}
+
+
+.delete-note-button{
+    width: 80px;
+    height: 50px;
+    font-family: "Roboto",sans-serif;
+    border-radius: 4px;
+    background-color:  #2294ed;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.delete-note-button:hover{
+    background-color: #1d69a3;
+}

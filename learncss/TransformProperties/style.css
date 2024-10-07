@@ -1,0 +1,32 @@
+.container{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    margin: 80px auto;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: black;
+    font-size: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transform: scale(2); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scaleZ(2); */
+
+
+    /* transform: skew(0deg,40deg); */
+
+    /* transform: translate(50%,50%); */
+
+     
+
+}

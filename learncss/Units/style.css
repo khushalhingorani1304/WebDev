@@ -1,0 +1,31 @@
+main{
+    border: 5px dashed brown;
+    
+    width: 25% ;
+
+}
+
+
+
+body{
+    font-size: 2em;
+}
+
+
+
+header{
+    font-size: 2rem;
+}
+
+
+h1{
+    font-size: 32px; 
+}
+
+
+
+section{
+    border: 5px dashed green;
+    width: 50vw;
+
+}

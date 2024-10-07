@@ -1,0 +1,18 @@
+*{
+    border: 2px solid orangered;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+p{
+    color: green;
+    display: inline-block;
+    width: 500px;
+    
+    /* * if Display is set to inline (default->block) the width of element will not change so we will set display to INLINE-BLOCK* */
+}
+
+

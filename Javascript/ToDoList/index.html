@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <div class="header flex container">
+        <h1>To Do List📝</h1>
+    </div>
+
+
+    <main>
+
+        <div class="add-note container flex">
+            <input type="text" class="add-note-input" id="add-note-input">
+            <button class="add-note-button" onclick="addNote()">Add</button>
+        </div>
+
+
+
+        <div class="display-note container" id="display-note" >
+
+
+
+        </div>
+
+    </main>
+
+
+
+
+    <template id="note-template">
+            
+
+            
+        <div class="full-note" id="full-note" >
+            <div class="date" id="date">Date : 12-2-12</div>
+        
+            <div class="notes-section flex">
+                <div class="note" id="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum excepturi nobis esse tempora velit enim libero quis nostrum debitis ex atque dolores provident eum, alias quam ullam consequatur rem necessitatibus aut! Qui ipsam incidunt accusamus, vel rem eum odio consequatur corporis perspiciatis sapiente excepturi dolorem ut sunt quaerat harum est sit quia natus veritatis a architecto veniam. Quas harum, explicabo eius magnam qui esse doloremque, necessitatibus eum aperiam iusto odio quos iste impedit distinctio laudantium voluptatum est asperiores suscipit eveniet! Expedita at praesentium veritatis, doloremque vero earum totam dolor placeat facilis voluptatum adipisci, ex iusto atque nostrum reiciendis eaque et?</div>
+                <button class="delete-note-button" id="delete-note-button" onclick="deleteNote(id)">Delete</button>
+            </div>    
+        </div>
+
+
+    </template>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

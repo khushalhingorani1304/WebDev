@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-text-colour : #d10606;
+}
+
+
+
+.container{
+    --my-var: red;
+    padding: 40px;
+}
+
+
+h1{
+    text-align: center;
+    background-color: var(--my-var,green);
+    color: var(--primary-text-colour);
+}
+
+.box{
+    --my-var: yellow;
+    padding: 20px;
+    /* background-color: var(--my-var); */
+}
+
+.box h2{
+    margin-bottom: 20px;
+    background-color: var(--my-var);
+}
+
+
+
+@media screen and (width >= 800px){
+    .container{
+        --my-var: pink;
+    }
+}

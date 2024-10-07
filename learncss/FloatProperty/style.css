@@ -1,0 +1,26 @@
+.container{
+    height: 800px;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+
+.p1{
+    border: 2px solid green;
+}
+
+
+.img1{
+    float: right;
+    margin-left: 40px;
+}
+
+.img2{
+    float: left;
+    margin-right: 40px;
+}
+
+
+.block1{
+    overflow: auto;
+}

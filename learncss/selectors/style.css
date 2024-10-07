@@ -1,0 +1,27 @@
+*{
+    font-family:cursive;
+}
+
+
+body{
+    font-size:24px;
+}
+
+
+#first, #second{
+    color: red;
+}
+
+.purple{
+    color: purple;
+}
+
+
+#first>p{
+    color: green;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bolder;
+}
